@@ -1873,6 +1873,37 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "este es ajustable puede cambiar el voltaje de \nsalida no solo 5 v. \n\n1.25 v a 37v de salida no solo 5 v\n\n2v higher always \n\nlo baja a 5v \n\nno funciona solo supuestamente necesita del \ncapacitro para estabilizar el voltaje.\n\neste es pasivo y el otro es activo\n\n"
+		(exclude_from_sim no)
+		(at 120.65 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34f35ea3-1da4-4f94-83cf-c1b8dbbd514e")
+	)
+	(text "this is a voltage regulator it converts \nhigh voltage to low voltage \n"
+		(exclude_from_sim no)
+		(at 146.05 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90eb65b7-8db4-42c3-bb51-9649e5bc89aa")
+	)
+	(text "este lo desperdicia y el otro no lo desperdicia\n"
+		(exclude_from_sim no)
+		(at 217.17 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f045607f-4e66-4241-afc4-543632fa38cd")
+	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
 		(at 180.34 134.62 0)
