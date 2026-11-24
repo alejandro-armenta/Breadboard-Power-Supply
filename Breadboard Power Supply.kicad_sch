@@ -1873,6 +1873,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ground\n"
+		(exclude_from_sim no)
+		(at 55.88 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03fd607e-f8d1-496c-bcd7-99402836726d")
+	)
+	(text "este sale hacia el breadboard\n\nmain outputs"
+		(exclude_from_sim no)
+		(at 102.87 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06a326d1-8298-404d-828c-26e52d0b64da")
+	)
+	(text "disataches when \nbarrel plug connects"
+		(exclude_from_sim no)
+		(at 59.69 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "078cbbaa-023f-49fc-b09a-59ddd75b50df")
+	)
+	(text "se usa en los pedales de musica"
+		(exclude_from_sim no)
+		(at 43.18 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14cc877f-01c5-450d-98af-52a48faa1c6f")
+	)
 	(text "este es ajustable puede cambiar el voltaje de \nsalida no solo 5 v. \n\n1.25 v a 37v de salida no solo 5 v\n\n2v higher always \n\nlo baja a 5v \n\nno funciona solo supuestamente necesita del \ncapacitro para estabilizar el voltaje.\n\neste es pasivo y el otro es activo\n\n"
 		(exclude_from_sim no)
 		(at 120.65 171.45 0)
@@ -1884,6 +1924,36 @@
 		)
 		(uuid "34f35ea3-1da4-4f94-83cf-c1b8dbbd514e")
 	)
+	(text "ground\n"
+		(exclude_from_sim no)
+		(at 167.64 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a71da39-5bf2-486c-a055-2db5d4aac14e")
+	)
+	(text "ground\n"
+		(exclude_from_sim no)
+		(at 137.16 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "512619ee-734d-4258-a2f8-78ad9aabc1e4")
+	)
+	(text "you can have a battery and wall power at the same time.\nand they switch"
+		(exclude_from_sim no)
+		(at 44.45 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70da9442-1fa3-42e3-9719-1d078a11db57")
+	)
 	(text "this is a voltage regulator it converts \nhigh voltage to low voltage \n"
 		(exclude_from_sim no)
 		(at 146.05 153.67 0)
@@ -1894,9 +1964,69 @@
 		)
 		(uuid "90eb65b7-8db4-42c3-bb51-9649e5bc89aa")
 	)
+	(text "wall adapter\n"
+		(exclude_from_sim no)
+		(at 53.34 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "975c1ca1-b75a-4d23-9d7a-6c934ec6fe43")
+	)
+	(text "5 v\n"
+		(exclude_from_sim no)
+		(at 130.81 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7fbe513-06a3-4730-8cc0-e71144c679ca")
+	)
+	(text "ground\n"
+		(exclude_from_sim no)
+		(at 146.05 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a840e348-10ec-450f-a546-d50ac3035221")
+	)
+	(text "a microcontroller can monitor pin 3 to tell wether the device is running on wall power or battery power."
+		(exclude_from_sim no)
+		(at 44.45 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6ac3ce7-6d3c-4a85-93e2-49cee22fa0f5")
+	)
+	(text "this detects wether a power plug is inserted.\n"
+		(exclude_from_sim no)
+		(at 41.91 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d82da9e7-8196-43c0-9aae-3707f9fb1b00")
+	)
+	(text "this is a switch\n\nthis turns on the device whole\n\nmain VIN rail\n\nmanda la corriente a los reguladores de voltaje\n\ny despues los capacitores\n\npower flows from the barrel jack into the regulators\n\nreguladores de voltaje analogos de chip\n\npuedes apagar todo con este switch"
+		(exclude_from_sim no)
+		(at 95.25 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d848b0f2-47f1-4b6d-b899-d28420418ce8")
+	)
 	(text "este lo desperdicia y el otro no lo desperdicia\n"
 		(exclude_from_sim no)
-		(at 217.17 82.55 0)
+		(at 204.47 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1904,9 +2034,179 @@
 		)
 		(uuid "f045607f-4e66-4241-afc4-543632fa38cd")
 	)
+	(text "3.3 v\n"
+		(exclude_from_sim no)
+		(at 156.21 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "facd6169-5a35-4e6d-8e76-4ad0bb76635a")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 168.91 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060093ed-bd9e-4cbf-9bc3-1047edd86a4f")
+	)
+	(wire
+		(pts
+			(xy 146.05 118.11) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e18c29-0150-43f0-8867-0352424ca2c6")
+	)
+	(wire
+		(pts
+			(xy 52.07 100.33) (xy 57.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318f699d-2fde-41a5-89c9-1723a3e3037e")
+	)
+	(wire
+		(pts
+			(xy 52.07 92.71) (xy 52.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b3ca09-f28d-49fc-967d-230d76ba2999")
+	)
+	(wire
+		(pts
+			(xy 142.24 115.57) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43df16ce-0905-482d-ac9f-a70b7c6a4f81")
+	)
+	(wire
+		(pts
+			(xy 44.45 92.71) (xy 52.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df94ced-3216-4c1b-a4bc-8fba95a9b08d")
+	)
+	(wire
+		(pts
+			(xy 52.07 88.9) (xy 57.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ec897d-f4f5-4cde-af1d-ecf9d125e0f6")
+	)
+	(wire
+		(pts
+			(xy 44.45 97.79) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92bb2660-afa8-445e-afc8-87e48f5bd092")
+	)
+	(wire
+		(pts
+			(xy 168.91 118.11) (xy 168.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfdb081-35d9-43b0-9499-23edbd03b6df")
+	)
+	(wire
+		(pts
+			(xy 44.45 95.25) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdef41fe-8d34-4658-9f4e-c2b260d78b27")
+	)
+	(wire
+		(pts
+			(xy 52.07 97.79) (xy 52.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4126e9b-843f-4a72-aa8a-dc1edc1a4e27")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9de7014-b40c-4baf-9a20-66084a0d90ec")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 170.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8b66aa-4461-4134-8732-4662ad580ac2")
+	)
+	(wire
+		(pts
+			(xy 170.18 115.57) (xy 165.1 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c991bf-6c44-4f16-b65a-94937496661c")
+	)
+	(wire
+		(pts
+			(xy 142.24 118.11) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0102875-a471-4993-afc0-e015f18c0424")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9b9d67-3ab2-40c8-86d0-0b9898f1b72a")
+	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
-		(at 180.34 134.62 0)
+		(at 162.56 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1917,7 +2217,7 @@
 		(fields_autoplaced yes)
 		(uuid "000bf0e8-19fa-473e-b377-379b3a1e9e34")
 		(property "Reference" "U2"
-			(at 180.34 128.27 0)
+			(at 162.56 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1927,7 +2227,7 @@
 			)
 		)
 		(property "Value" "LM317_TO-220"
-			(at 180.34 130.81 0)
+			(at 162.56 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1937,7 +2237,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 180.34 128.27 0)
+			(at 162.56 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1949,7 +2249,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-			(at 180.34 134.62 0)
+			(at 162.56 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1960,7 +2260,7 @@
 			)
 		)
 		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
-			(at 180.34 134.62 0)
+			(at 162.56 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1990,7 +2290,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 101.6 97.79 0)
+		(at 36.83 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2001,7 +2301,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cda560f-403f-43ba-8cef-3e3a4ddba32e")
 		(property "Reference" "J1"
-			(at 101.6 88.9 0)
+			(at 36.83 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2011,7 +2311,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 101.6 91.44 0)
+			(at 36.83 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2021,7 +2321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 98.806 0)
+			(at 38.1 96.266 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +2332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 98.806 0)
+			(at 38.1 96.266 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2043,7 +2343,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 101.6 97.79 0)
+			(at 36.83 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2153,7 +2453,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 175.26 93.98 0)
+		(at 160.02 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2164,7 +2464,7 @@
 		(fields_autoplaced yes)
 		(uuid "2373c33a-baee-4420-a4ab-c10b66b2207a")
 		(property "Reference" "J5"
-			(at 175.895 88.9 0)
+			(at 160.655 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2174,7 +2474,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 175.895 91.44 0)
+			(at 160.655 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2184,7 +2484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 93.98 0)
+			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2195,7 +2495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 93.98 0)
+			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2206,7 +2506,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 175.26 93.98 0)
+			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2233,7 +2533,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 176.53 113.03 0)
+		(at 167.64 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2244,7 +2544,7 @@
 		(fields_autoplaced yes)
 		(uuid "238ee1cc-7585-47b0-b0a5-a9c0f8c96fda")
 		(property "Reference" "J7"
-			(at 177.165 105.41 0)
+			(at 168.275 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2254,7 +2554,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 177.165 107.95 0)
+			(at 168.275 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2264,7 +2564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 113.03 0)
+			(at 167.64 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2275,7 +2575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 113.03 0)
+			(at 167.64 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2286,7 +2586,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 176.53 113.03 0)
+			(at 167.64 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2396,7 +2696,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 229.87 93.98 0)
+		(at 217.17 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2407,7 +2707,7 @@
 		(fields_autoplaced yes)
 		(uuid "7237da47-071a-4678-80f2-dda4d2d4ce99")
 		(property "Reference" "C3"
-			(at 233.68 92.7099 0)
+			(at 220.98 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2418,7 +2718,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 233.68 95.2499 0)
+			(at 220.98 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2429,7 +2729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 230.8352 97.79 0)
+			(at 218.1352 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2440,7 +2740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 93.98 0)
+			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,7 +2751,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 229.87 93.98 0)
+			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2478,7 +2778,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 200.66 114.3 0)
+		(at 201.93 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2489,7 +2789,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d3c819f-46fa-41df-ab4b-4b9d3893a9fa")
 		(property "Reference" "D1"
-			(at 199.0725 107.95 0)
+			(at 200.3425 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2499,7 +2799,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 199.0725 110.49 0)
+			(at 200.3425 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2509,7 +2809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 114.3 0)
+			(at 201.93 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2520,7 +2820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 114.3 0)
+			(at 201.93 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2531,7 +2831,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 200.66 114.3 0)
+			(at 201.93 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2542,7 +2842,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 200.66 114.3 0)
+			(at 201.93 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,7 +2949,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 93.98 0)
+		(at 186.69 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2660,7 +2960,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ce91a46-053f-423c-8f19-055a24d25e0c")
 		(property "Reference" "C1"
-			(at 203.2 92.7099 0)
+			(at 190.5 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2671,7 +2971,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 203.2 95.2499 0)
+			(at 190.5 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2682,7 +2982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.3552 97.79 0)
+			(at 187.6552 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,7 +2993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 93.98 0)
+			(at 186.69 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2704,7 +3004,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 199.39 93.98 0)
+			(at 186.69 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2731,7 +3031,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 152.4 93.98 0)
+		(at 137.16 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2742,7 +3042,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ae1dd3a-2d9e-47d2-a083-7ca6176888c6")
 		(property "Reference" "J4"
-			(at 153.035 88.9 0)
+			(at 137.795 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2752,7 +3052,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 153.035 91.44 0)
+			(at 137.795 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2762,7 +3062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 93.98 0)
+			(at 137.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2773,7 +3073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 93.98 0)
+			(at 137.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +3084,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 152.4 93.98 0)
+			(at 137.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +3111,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 154.94 134.62 0)
+		(at 137.16 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2822,7 +3122,7 @@
 		(fields_autoplaced yes)
 		(uuid "b945eec3-a535-4f72-b4e2-2c8491fbb808")
 		(property "Reference" "U1"
-			(at 154.94 128.27 0)
+			(at 137.16 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2832,7 +3132,7 @@
 			)
 		)
 		(property "Value" "LM7805_TO220"
-			(at 154.94 130.81 0)
+			(at 137.16 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2842,7 +3142,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 154.94 128.905 0)
+			(at 137.16 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2854,7 +3154,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 154.94 135.89 0)
+			(at 137.16 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2865,7 +3165,7 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-			(at 154.94 134.62 0)
+			(at 137.16 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2895,7 +3195,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Switch:SPDT_Slide_PTH_11.6x4.0mm-ShortPin")
-		(at 104.14 118.11 0)
+		(at 96.52 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2906,7 +3206,7 @@
 		(fields_autoplaced yes)
 		(uuid "de64626d-78a3-4d7d-9cae-b4b818bc236d")
 		(property "Reference" "SW1"
-			(at 104.14 110.49 0)
+			(at 96.52 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2916,7 +3216,7 @@
 			)
 		)
 		(property "Value" "SPDT_Slide_PTH_11.6x4.0mm-ShortPin"
-			(at 104.14 113.03 0)
+			(at 96.52 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2926,7 +3226,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Switch:Slide_SPDT_PTH_11.6x4.0mm"
-			(at 104.14 125.73 0)
+			(at 96.52 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2937,7 +3237,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"
-			(at 104.14 128.27 0)
+			(at 96.52 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2948,7 +3248,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 104.14 133.35 0)
+			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2959,7 +3259,7 @@
 			)
 		)
 		(property "PROD_ID" "SWCH-13151"
-			(at 104.14 130.81 0)
+			(at 96.52 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2970,7 +3270,7 @@
 			)
 		)
 		(property "Mrg Part#" ""
-			(at 104.14 133.35 0)
+			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3382,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 93.98 0)
+		(at 203.2 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3093,7 +3393,7 @@
 		(fields_autoplaced yes)
 		(uuid "f444f681-583e-40ac-bac8-d480dd812d33")
 		(property "Reference" "C2"
-			(at 219.71 92.7099 0)
+			(at 207.01 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3104,7 +3404,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 219.71 95.2499 0)
+			(at 207.01 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3115,7 +3415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 216.8652 97.79 0)
+			(at 204.1652 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3126,7 +3426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 93.98 0)
+			(at 203.2 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,7 +3437,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 215.9 93.98 0)
+			(at 203.2 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,7 +3546,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 153.67 113.03 0)
+		(at 144.78 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3257,7 +3557,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5ccf563-1b66-42a4-b7eb-f0a3209a5191")
 		(property "Reference" "J6"
-			(at 154.305 105.41 0)
+			(at 145.415 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3267,7 +3567,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 154.305 107.95 0)
+			(at 145.415 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3277,7 +3577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 113.03 0)
+			(at 144.78 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3288,7 +3588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 113.03 0)
+			(at 144.78 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3599,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 153.67 113.03 0)
+			(at 144.78 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
