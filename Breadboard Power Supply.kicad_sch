@@ -1915,7 +1915,7 @@
 	)
 	(text "este es ajustable puede cambiar el voltaje de \nsalida no solo 5 v. \n\n1.25 v a 37v de salida no solo 5 v\n\n2v higher always \n\nlo baja a 5v \n\nno funciona solo supuestamente necesita del \ncapacitro para estabilizar el voltaje.\n\neste es pasivo y el otro es activo\n\n"
 		(exclude_from_sim no)
-		(at 120.65 171.45 0)
+		(at -1.27 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1933,6 +1933,16 @@
 			)
 		)
 		(uuid "3a71da39-5bf2-486c-a055-2db5d4aac14e")
+	)
+	(text "son extra terminales que no van al breadboard.\n\nuna es para el de 5v y el otro es para el de 3.3v."
+		(exclude_from_sim no)
+		(at 109.22 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46a05fed-3686-49fa-a9b5-c64c5ef66347")
 	)
 	(text "ground\n"
 		(exclude_from_sim no)
@@ -1954,9 +1964,19 @@
 		)
 		(uuid "70da9442-1fa3-42e3-9719-1d078a11db57")
 	)
+	(text "this controls the current going into the led to not burn offf."
+		(exclude_from_sim no)
+		(at 254 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c459f9d-6a09-482f-8c97-2379e45ba78c")
+	)
 	(text "this is a voltage regulator it converts \nhigh voltage to low voltage \n"
 		(exclude_from_sim no)
-		(at 146.05 153.67 0)
+		(at 24.13 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1993,6 +2013,26 @@
 			)
 		)
 		(uuid "a840e348-10ec-450f-a546-d50ac3035221")
+	)
+	(text "for a given voltage les current"
+		(exclude_from_sim no)
+		(at 215.9 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aee8d43d-f8a5-4b09-bf4c-8f6d82db14fa")
+	)
+	(text "3 pin jumper selector\n\nby moving the jumper cap \n\npower supply versatile to select 5v or 3.3v\n\nestos van enmedio."
+		(exclude_from_sim no)
+		(at 154.94 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1c83ae7-462b-4bd8-8c9d-0e17a46ae527")
 	)
 	(text "a microcontroller can monitor pin 3 to tell wether the device is running on wall power or battery power."
 		(exclude_from_sim no)
@@ -2043,6 +2083,12 @@
 			)
 		)
 		(uuid "facd6169-5a35-4e6d-8e76-4ad0bb76635a")
+	)
+	(junction
+		(at 170.18 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13fc8ebe-0b6d-4c95-85e0-ed5eb35607f2")
 	)
 	(wire
 		(pts
@@ -2116,6 +2162,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 106.68) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7420f6-e8e1-44e0-bb97-d1d9abe145b1")
+	)
+	(wire
+		(pts
 			(xy 44.45 97.79) (xy 52.07 97.79)
 		)
 		(stroke
@@ -2123,6 +2179,36 @@
 			(type default)
 		)
 		(uuid "92bb2660-afa8-445e-afc8-87e48f5bd092")
+	)
+	(wire
+		(pts
+			(xy 170.18 107.95) (xy 170.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c4a21d-c1c2-4ef5-8310-e260c5ce139a")
+	)
+	(wire
+		(pts
+			(xy 162.56 102.87) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a781951b-2cae-48bc-84aa-26279d579cd5")
+	)
+	(wire
+		(pts
+			(xy 205.74 121.92) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b279f92e-c662-46c2-b636-ad173b1d3278")
 	)
 	(wire
 		(pts
@@ -2166,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 95.25) (xy 170.18 115.57)
+			(xy 170.18 95.25) (xy 170.18 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2186,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 95.25) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1904947-353f-4a37-8560-8ddd1f9f58d7")
+	)
+	(wire
+		(pts
 			(xy 142.24 118.11) (xy 146.05 118.11)
 		)
 		(stroke
@@ -2193,16 +2289,6 @@
 			(type default)
 		)
 		(uuid "f0102875-a471-4993-afc0-e015f18c0424")
-	)
-	(wire
-		(pts
-			(xy 148.59 95.25) (xy 148.59 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9b9d67-3ab2-40c8-86d0-0b9898f1b72a")
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
@@ -2373,7 +2459,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 199.39 135.89 90)
+		(at 153.67 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2384,7 +2470,7 @@
 		(fields_autoplaced yes)
 		(uuid "1762667e-5431-4261-95c6-2a4d368a143f")
 		(property "Reference" "R1"
-			(at 199.39 129.54 90)
+			(at 153.67 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2394,7 +2480,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 199.39 132.08 90)
+			(at 153.67 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2404,7 +2490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 137.668 90)
+			(at 153.67 108.458 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,7 +2501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 135.89 0)
+			(at 153.67 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2426,7 +2512,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 199.39 135.89 0)
+			(at 153.67 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2616,7 +2702,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 135.89 90)
+		(at 214.63 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2627,7 +2713,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cd3fe3d-8f13-42d0-a41e-ef757c1ad722")
 		(property "Reference" "R3"
-			(at 232.41 129.54 90)
+			(at 214.63 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2637,7 +2723,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 232.41 132.08 90)
+			(at 214.63 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2647,7 +2733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 137.668 90)
+			(at 214.63 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,7 +2744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 135.89 0)
+			(at 214.63 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +2755,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 232.41 135.89 0)
+			(at 214.63 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2869,7 +2955,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 135.89 90)
+		(at 166.37 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2880,7 +2966,7 @@
 		(fields_autoplaced yes)
 		(uuid "82d2c39e-2d12-4bf5-b8eb-7adec8884202")
 		(property "Reference" "R2"
-			(at 214.63 129.54 90)
+			(at 166.37 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2890,7 +2976,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 214.63 132.08 90)
+			(at 166.37 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2900,7 +2986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 137.668 90)
+			(at 166.37 109.728 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2911,7 +2997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 135.89 0)
+			(at 166.37 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2922,7 +3008,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 135.89 0)
+			(at 166.37 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
