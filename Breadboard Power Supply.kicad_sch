@@ -1873,440 +1873,85 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ground\n"
-		(exclude_from_sim no)
-		(at 55.88 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "03fd607e-f8d1-496c-bcd7-99402836726d")
-	)
-	(text "este sale hacia el breadboard\n\nmain outputs"
-		(exclude_from_sim no)
-		(at 102.87 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06a326d1-8298-404d-828c-26e52d0b64da")
-	)
-	(text "disataches when \nbarrel plug connects"
-		(exclude_from_sim no)
-		(at 59.69 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "078cbbaa-023f-49fc-b09a-59ddd75b50df")
-	)
-	(text "se usa en los pedales de musica"
-		(exclude_from_sim no)
-		(at 43.18 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "14cc877f-01c5-450d-98af-52a48faa1c6f")
-	)
-	(text "este es ajustable puede cambiar el voltaje de \nsalida no solo 5 v. \n\n1.25 v a 37v de salida no solo 5 v\n\n2v higher always \n\nlo baja a 5v \n\nno funciona solo supuestamente necesita del \ncapacitro para estabilizar el voltaje.\n\neste es pasivo y el otro es activo\n\n"
-		(exclude_from_sim no)
-		(at -1.27 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34f35ea3-1da4-4f94-83cf-c1b8dbbd514e")
-	)
-	(text "ground\n"
-		(exclude_from_sim no)
-		(at 167.64 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3a71da39-5bf2-486c-a055-2db5d4aac14e")
-	)
-	(text "son extra terminales que no van al breadboard.\n\nuna es para el de 5v y el otro es para el de 3.3v."
-		(exclude_from_sim no)
-		(at 109.22 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "46a05fed-3686-49fa-a9b5-c64c5ef66347")
-	)
-	(text "ground\n"
-		(exclude_from_sim no)
-		(at 137.16 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "512619ee-734d-4258-a2f8-78ad9aabc1e4")
-	)
-	(text "you can have a battery and wall power at the same time.\nand they switch"
-		(exclude_from_sim no)
-		(at 44.45 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "70da9442-1fa3-42e3-9719-1d078a11db57")
-	)
-	(text "this controls the current going into the led to not burn offf."
-		(exclude_from_sim no)
-		(at 237.49 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7c459f9d-6a09-482f-8c97-2379e45ba78c")
-	)
-	(text "this is a voltage regulator it converts \nhigh voltage to low voltage \n"
-		(exclude_from_sim no)
-		(at 24.13 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "90eb65b7-8db4-42c3-bb51-9649e5bc89aa")
-	)
-	(text "wall adapter\n"
-		(exclude_from_sim no)
-		(at 53.34 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "975c1ca1-b75a-4d23-9d7a-6c934ec6fe43")
-	)
-	(text "estos son microfarads the capacitancia"
-		(exclude_from_sim no)
-		(at 223.52 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a06d0626-66f2-4c72-b049-ed0de4186c95")
-	)
-	(text "5 v\n"
-		(exclude_from_sim no)
-		(at 130.81 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a7fbe513-06a3-4730-8cc0-e71144c679ca")
-	)
-	(text "ground\n"
-		(exclude_from_sim no)
-		(at 146.05 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a840e348-10ec-450f-a546-d50ac3035221")
-	)
-	(text "for a given voltage les current"
-		(exclude_from_sim no)
-		(at 215.9 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aee8d43d-f8a5-4b09-bf4c-8f6d82db14fa")
-	)
-	(text "3 pin jumper selector\n\nby moving the jumper cap \n\npower supply versatile to select 5v or 3.3v\n\nestos van enmedio."
-		(exclude_from_sim no)
-		(at 154.94 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c1c83ae7-462b-4bd8-8c9d-0e17a46ae527")
-	)
-	(text "a microcontroller can monitor pin 3 to tell wether the device is running on wall power or battery power."
-		(exclude_from_sim no)
-		(at 44.45 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c6ac3ce7-6d3c-4a85-93e2-49cee22fa0f5")
-	)
-	(text "this detects wether a power plug is inserted.\n"
-		(exclude_from_sim no)
-		(at 41.91 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d82da9e7-8196-43c0-9aae-3707f9fb1b00")
-	)
-	(text "this is a switch\n\nthis turns on the device whole\n\nmain VIN rail\n\nmanda la corriente a los reguladores de voltaje\n\ny despues los capacitores\n\npower flows from the barrel jack into the regulators\n\nreguladores de voltaje analogos de chip\n\npuedes apagar todo con este switch"
-		(exclude_from_sim no)
-		(at 95.25 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d848b0f2-47f1-4b6d-b899-d28420418ce8")
-	)
-	(text "estos son ohms de resistencia"
-		(exclude_from_sim no)
-		(at 260.35 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ed324429-bdc7-45b1-85ee-5d568a6b8295")
-	)
-	(text "este lo desperdicia y el otro no lo desperdicia\n"
-		(exclude_from_sim no)
-		(at 204.47 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f045607f-4e66-4241-afc4-543632fa38cd")
-	)
-	(text "3.3 v\n"
-		(exclude_from_sim no)
-		(at 156.21 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "facd6169-5a35-4e6d-8e76-4ad0bb76635a")
-	)
-	(wire
-		(pts
-			(xy 196.85 95.25) (xy 196.85 100.33)
-		)
+	(rectangle
+		(start 36.83 45.72)
+		(end 166.37 69.85)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "001de25e-2b9e-460c-8807-15e20bf06a77")
-	)
-	(wire
-		(pts
-			(xy 196.85 95.25) (xy 190.5 95.25)
+		(fill
+			(type none)
 		)
+		(uuid "406fd670-6f50-4b3b-ba70-f21428f3f8ca")
+	)
+	(rectangle
+		(start 191.77 44.45)
+		(end 256.54 153.67)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "058638e4-2492-43e5-8723-e3ac6dbda31d")
-	)
-	(wire
-		(pts
-			(xy 165.1 118.11) (xy 168.91 118.11)
+		(fill
+			(type none)
 		)
+		(uuid "adbf0757-997b-472e-a65e-72d50b08933d")
+	)
+	(rectangle
+		(start 36.83 83.82)
+		(end 140.97 161.29)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "060093ed-bd9e-4cbf-9bc3-1047edd86a4f")
+		(fill
+			(type none)
+		)
+		(uuid "c3bf3b1d-bc33-40da-88fc-bb8858854876")
 	)
-	(wire
-		(pts
-			(xy 146.05 118.11) (xy 146.05 123.19)
+	(text "Group C"
+		(exclude_from_sim no)
+		(at 195.58 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22e18c29-0150-43f0-8867-0352424ca2c6")
+		(uuid "344957b3-f959-4f3b-805e-e999e25de210")
 	)
-	(wire
-		(pts
-			(xy 123.19 100.33) (xy 123.19 95.25)
+	(text "Group B"
+		(exclude_from_sim no)
+		(at 43.18 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2357b0f0-1d81-4e5b-a042-d3bc2688119e")
+		(uuid "3c650f66-df96-4781-8e46-cca0456367bb")
 	)
-	(wire
-		(pts
-			(xy 52.07 100.33) (xy 57.15 100.33)
+	(text "esto es para que saque los 3.3 v"
+		(exclude_from_sim no)
+		(at 69.85 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "318f699d-2fde-41a5-89c9-1723a3e3037e")
+		(uuid "7f036d99-65b1-40f5-bc33-45e9e40f7ebe")
 	)
-	(wire
-		(pts
-			(xy 52.07 92.71) (xy 52.07 88.9)
+	(text "group A\n"
+		(exclude_from_sim no)
+		(at 41.91 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b3ca09-f28d-49fc-967d-230d76ba2999")
-	)
-	(wire
-		(pts
-			(xy 142.24 115.57) (xy 148.59 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43df16ce-0905-482d-ac9f-a70b7c6a4f81")
-	)
-	(wire
-		(pts
-			(xy 44.45 92.71) (xy 52.07 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df94ced-3216-4c1b-a4bc-8fba95a9b08d")
-	)
-	(wire
-		(pts
-			(xy 52.07 88.9) (xy 57.15 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76ec897d-f4f5-4cde-af1d-ecf9d125e0f6")
-	)
-	(wire
-		(pts
-			(xy 44.45 97.79) (xy 52.07 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92bb2660-afa8-445e-afc8-87e48f5bd092")
-	)
-	(wire
-		(pts
-			(xy 144.78 95.25) (xy 148.59 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a63dd73b-0287-442d-b20c-5d8c6ad5a8f7")
-	)
-	(wire
-		(pts
-			(xy 227.33 121.92) (xy 232.41 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b279f92e-c662-46c2-b636-ad173b1d3278")
-	)
-	(wire
-		(pts
-			(xy 168.91 118.11) (xy 168.91 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcfdb081-35d9-43b0-9499-23edbd03b6df")
-	)
-	(wire
-		(pts
-			(xy 44.45 95.25) (xy 55.88 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdef41fe-8d34-4658-9f4e-c2b260d78b27")
-	)
-	(wire
-		(pts
-			(xy 52.07 97.79) (xy 52.07 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4126e9b-843f-4a72-aa8a-dc1edc1a4e27")
-	)
-	(wire
-		(pts
-			(xy 170.18 115.57) (xy 165.1 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6c991bf-6c44-4f16-b65a-94937496661c")
-	)
-	(wire
-		(pts
-			(xy 123.19 95.25) (xy 129.54 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee58b9b4-847c-40c6-83cc-bc0273d13af3")
-	)
-	(wire
-		(pts
-			(xy 142.24 118.11) (xy 146.05 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0102875-a471-4993-afc0-e015f18c0424")
-	)
-	(wire
-		(pts
-			(xy 148.59 95.25) (xy 148.59 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd92fb87-7d5c-4c9e-bb04-4cbd4c4f589c")
+		(uuid "9a8d132a-b732-4ad9-9fc8-60d15c26502b")
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
-		(at 182.88 95.25 0)
+		(at 69.85 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2317,7 +1962,7 @@
 		(fields_autoplaced yes)
 		(uuid "000bf0e8-19fa-473e-b377-379b3a1e9e34")
 		(property "Reference" "U2"
-			(at 182.88 88.9 0)
+			(at 69.85 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2327,7 +1972,7 @@
 			)
 		)
 		(property "Value" "LM317_TO-220"
-			(at 182.88 91.44 0)
+			(at 69.85 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2337,7 +1982,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 182.88 88.9 0)
+			(at 69.85 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2349,7 +1994,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-			(at 182.88 95.25 0)
+			(at 69.85 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2360,7 +2005,7 @@
 			)
 		)
 		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
-			(at 182.88 95.25 0)
+			(at 69.85 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,7 +2035,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 36.83 95.25 0)
+		(at 55.88 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2401,7 +2046,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cda560f-403f-43ba-8cef-3e3a4ddba32e")
 		(property "Reference" "J1"
-			(at 36.83 86.36 0)
+			(at 55.88 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2411,7 +2056,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 36.83 88.9 0)
+			(at 55.88 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2421,7 +2066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 96.266 0)
+			(at 57.15 59.436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2432,7 +2077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 96.266 0)
+			(at 57.15 59.436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2443,7 +2088,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 36.83 95.25 0)
+			(at 55.88 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +2118,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 109.22 90)
+		(at 50.8 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2484,27 +2129,29 @@
 		(fields_autoplaced yes)
 		(uuid "1762667e-5431-4261-95c6-2a4d368a143f")
 		(property "Reference" "R1"
-			(at 234.95 102.87 90)
+			(at 53.34 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "330"
-			(at 234.95 105.41 90)
+			(at 53.34 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 110.998 90)
+			(at 52.578 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +2162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 109.22 0)
+			(at 50.8 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +2173,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 109.22 0)
+			(at 50.8 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2553,7 +2200,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 160.02 115.57 0)
+		(at 214.63 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2564,7 +2211,7 @@
 		(fields_autoplaced yes)
 		(uuid "2373c33a-baee-4420-a4ab-c10b66b2207a")
 		(property "Reference" "J5"
-			(at 160.655 110.49 0)
+			(at 215.265 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2574,7 +2221,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 160.655 113.03 0)
+			(at 215.265 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2584,7 +2231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 115.57 0)
+			(at 214.63 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,7 +2242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 115.57 0)
+			(at 214.63 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,7 +2253,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 160.02 115.57 0)
+			(at 214.63 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2633,7 +2280,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 167.64 142.24 0)
+		(at 215.9 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2644,7 +2291,7 @@
 		(fields_autoplaced yes)
 		(uuid "238ee1cc-7585-47b0-b0a5-a9c0f8c96fda")
 		(property "Reference" "J7"
-			(at 168.275 134.62 0)
+			(at 216.535 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2654,7 +2301,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 168.275 137.16 0)
+			(at 216.535 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2664,7 +2311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 142.24 0)
+			(at 215.9 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2675,7 +2322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 142.24 0)
+			(at 215.9 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2686,7 +2333,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 167.64 142.24 0)
+			(at 215.9 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +2363,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 121.92 90)
+		(at 91.44 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2727,27 +2374,29 @@
 		(fields_autoplaced yes)
 		(uuid "2cd3fe3d-8f13-42d0-a41e-ef757c1ad722")
 		(property "Reference" "R3"
-			(at 236.22 115.57 90)
+			(at 93.98 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "560"
-			(at 236.22 118.11 90)
+			(at 93.98 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 123.698 90)
+			(at 93.218 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2758,7 +2407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 121.92 0)
+			(at 91.44 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2418,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 236.22 121.92 0)
+			(at 91.44 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,7 +2445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 148.59 104.14 0)
+		(at 147.32 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2806,8 +2455,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7237da47-071a-4678-80f2-dda4d2d4ce99")
-		(property "Reference" "C3"
-			(at 152.4 102.8699 0)
+		(property "Reference" "C2"
+			(at 151.13 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2818,7 +2467,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 152.4 105.4099 0)
+			(at 151.13 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2829,7 +2478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.5552 107.95 0)
+			(at 148.2852 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 104.14 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2851,7 +2500,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 104.14 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2870,7 +2519,7 @@
 		(instances
 			(project "Breadboard Power Supply"
 				(path "/b87306c7-6bd5-400b-aa49-3917e8b32fcb"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2878,7 +2527,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 223.52 121.92 0)
+		(at 72.39 156.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2889,7 +2538,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d3c819f-46fa-41df-ab4b-4b9d3893a9fa")
 		(property "Reference" "D1"
-			(at 221.9325 115.57 0)
+			(at 73.9775 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2899,7 +2548,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 221.9325 118.11 0)
+			(at 73.9775 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2909,7 +2558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 121.92 0)
+			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,7 +2569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 121.92 0)
+			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2931,7 +2580,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 223.52 121.92 0)
+			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2942,7 +2591,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 121.92 0)
+			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,7 +2618,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 223.52 109.22 90)
+		(at 91.44 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2980,27 +2629,29 @@
 		(fields_autoplaced yes)
 		(uuid "82d2c39e-2d12-4bf5-b8eb-7adec8884202")
 		(property "Reference" "R2"
-			(at 223.52 102.87 90)
+			(at 93.98 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "330"
-			(at 223.52 105.41 90)
+			(at 93.98 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 110.998 90)
+			(at 93.218 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3011,7 +2662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 109.22 0)
+			(at 91.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,7 +2673,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 223.52 109.22 0)
+			(at 91.44 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +2700,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 123.19 104.14 0)
+		(at 115.57 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3060,7 +2711,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ce91a46-053f-423c-8f19-055a24d25e0c")
 		(property "Reference" "C1"
-			(at 127 102.8699 0)
+			(at 119.38 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3071,7 +2722,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 127 105.4099 0)
+			(at 119.38 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3082,7 +2733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.1552 107.95 0)
+			(at 116.5352 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3093,7 +2744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 104.14 0)
+			(at 115.57 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3104,7 +2755,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 123.19 104.14 0)
+			(at 115.57 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3131,7 +2782,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 137.16 115.57 0)
+		(at 215.9 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3142,7 +2793,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ae1dd3a-2d9e-47d2-a083-7ca6176888c6")
 		(property "Reference" "J4"
-			(at 137.795 110.49 0)
+			(at 216.535 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3152,7 +2803,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 137.795 113.03 0)
+			(at 216.535 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3162,7 +2813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 115.57 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,7 +2824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 115.57 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3184,7 +2835,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 137.16 115.57 0)
+			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3211,7 +2862,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 137.16 95.25 0)
+		(at 133.35 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3222,7 +2873,7 @@
 		(fields_autoplaced yes)
 		(uuid "b945eec3-a535-4f72-b4e2-2c8491fbb808")
 		(property "Reference" "U1"
-			(at 137.16 88.9 0)
+			(at 133.35 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3232,7 +2883,7 @@
 			)
 		)
 		(property "Value" "LM7805_TO220"
-			(at 137.16 91.44 0)
+			(at 133.35 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3242,7 +2893,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 137.16 89.535 0)
+			(at 133.35 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3254,7 +2905,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 137.16 96.52 0)
+			(at 133.35 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3265,7 +2916,7 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-			(at 137.16 95.25 0)
+			(at 133.35 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3295,7 +2946,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Switch:SPDT_Slide_PTH_11.6x4.0mm-ShortPin")
-		(at 96.52 97.79 0)
+		(at 92.71 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3306,7 +2957,7 @@
 		(fields_autoplaced yes)
 		(uuid "de64626d-78a3-4d7d-9cae-b4b818bc236d")
 		(property "Reference" "SW1"
-			(at 96.52 90.17 0)
+			(at 92.71 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3316,7 +2967,7 @@
 			)
 		)
 		(property "Value" "SPDT_Slide_PTH_11.6x4.0mm-ShortPin"
-			(at 96.52 92.71 0)
+			(at 92.71 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3326,7 +2977,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Switch:Slide_SPDT_PTH_11.6x4.0mm"
-			(at 96.52 105.41 0)
+			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3337,7 +2988,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"
-			(at 96.52 107.95 0)
+			(at 92.71 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3348,7 +2999,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 96.52 113.03 0)
+			(at 92.71 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3359,7 +3010,7 @@
 			)
 		)
 		(property "PROD_ID" "SWCH-13151"
-			(at 96.52 110.49 0)
+			(at 92.71 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3370,7 +3021,7 @@
 			)
 		)
 		(property "Mrg Part#" ""
-			(at 96.52 113.03 0)
+			(at 92.71 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3400,7 +3051,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 101.6 129.54 0)
+		(at 219.71 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3411,7 +3062,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9dad2f4-4e5c-4d0e-b09a-5aae71be44a0")
 		(property "Reference" "J2"
-			(at 104.14 129.5399 0)
+			(at 222.25 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3422,7 +3073,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_3.5mm_2"
-			(at 104.14 132.0799 0)
+			(at 222.25 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3433,7 +3084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 129.54 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3444,7 +3095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 129.54 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3455,7 +3106,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 129.54 0)
+			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3482,7 +3133,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 104.14 0)
+		(at 120.65 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3492,8 +3143,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f444f681-583e-40ac-bac8-d480dd812d33")
-		(property "Reference" "C2"
-			(at 200.66 102.8699 0)
+		(property "Reference" "C3"
+			(at 124.46 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3504,7 +3155,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 200.66 105.4099 0)
+			(at 124.46 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3515,7 +3166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 197.8152 107.95 0)
+			(at 121.6152 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3526,7 +3177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 104.14 0)
+			(at 120.65 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3537,7 +3188,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 104.14 0)
+			(at 120.65 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,7 +3207,7 @@
 		(instances
 			(project "Breadboard Power Supply"
 				(path "/b87306c7-6bd5-400b-aa49-3917e8b32fcb"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3215,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 101.6 139.7 0)
+		(at 220.98 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3575,7 +3226,7 @@
 		(fields_autoplaced yes)
 		(uuid "f55c9180-fb73-4ff5-b671-4447e89aee48")
 		(property "Reference" "J3"
-			(at 104.14 139.6999 0)
+			(at 223.52 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3586,7 +3237,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_3.5mm_2"
-			(at 104.14 142.2399 0)
+			(at 223.52 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3597,7 +3248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 139.7 0)
+			(at 220.98 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,7 +3259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 139.7 0)
+			(at 220.98 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3619,7 +3270,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 139.7 0)
+			(at 220.98 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3297,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 144.78 142.24 0)
+		(at 214.63 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3657,7 +3308,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5ccf563-1b66-42a4-b7eb-f0a3209a5191")
 		(property "Reference" "J6"
-			(at 145.415 134.62 0)
+			(at 215.265 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3667,7 +3318,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 145.415 137.16 0)
+			(at 215.265 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3677,7 +3328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 142.24 0)
+			(at 214.63 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3688,7 +3339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 142.24 0)
+			(at 214.63 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3699,7 +3350,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 144.78 142.24 0)
+			(at 214.63 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,6 +3376,31 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group ""
+		(uuid "76202715-1730-4cbd-86cb-11cbe06ea6e2")
+		(members "0cda560f-403f-43ba-8cef-3e3a4ddba32e" "406fd670-6f50-4b3b-ba70-f21428f3f8ca"
+			"7237da47-071a-4678-80f2-dda4d2d4ce99" "8ce91a46-053f-423c-8f19-055a24d25e0c"
+			"9a8d132a-b732-4ad9-9fc8-60d15c26502b" "b945eec3-a535-4f72-b4e2-2c8491fbb808"
+			"de64626d-78a3-4d7d-9cae-b4b818bc236d"
+		)
+	)
+	(group ""
+		(uuid "865fa3a2-48c6-43a4-8011-54e9ffe8fb6d")
+		(members "000bf0e8-19fa-473e-b377-379b3a1e9e34" "1762667e-5431-4261-95c6-2a4d368a143f"
+			"2cd3fe3d-8f13-42d0-a41e-ef757c1ad722" "3c650f66-df96-4781-8e46-cca0456367bb"
+			"7d3c819f-46fa-41df-ab4b-4b9d3893a9fa" "7f036d99-65b1-40f5-bc33-45e9e40f7ebe"
+			"82d2c39e-2d12-4bf5-b8eb-7adec8884202" "c3bf3b1d-bc33-40da-88fc-bb8858854876"
+			"f444f681-583e-40ac-bac8-d480dd812d33"
+		)
+	)
+	(group ""
+		(uuid "c2f467ba-fda0-4170-90cc-8cb5df81ab2a")
+		(members "2373c33a-baee-4420-a4ab-c10b66b2207a" "238ee1cc-7585-47b0-b0a5-a9c0f8c96fda"
+			"344957b3-f959-4f3b-805e-e999e25de210" "9ae1dd3a-2d9e-47d2-a083-7ca6176888c6"
+			"adbf0757-997b-472e-a65e-72d50b08933d" "e9dad2f4-4e5c-4d0e-b09a-5aae71be44a0"
+			"f55c9180-fb73-4ff5-b671-4447e89aee48" "f5ccf563-1b66-42a4-b7eb-f0a3209a5191"
 		)
 	)
 	(sheet_instances
