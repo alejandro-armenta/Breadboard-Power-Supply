@@ -2065,7 +2065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 57.15 59.436 0)
 			(hide yes)
 			(show_name no)
@@ -2477,7 +2477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 148.2852 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2557,7 +2557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -2732,7 +2732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 116.5352 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3083,7 +3083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ale:TerminalBlock_bornier-2_P5.08mm"
 			(at 219.71 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3165,7 +3165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 121.6152 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3247,7 +3247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ale:TerminalBlock_bornier-2_P5.08mm"
 			(at 220.98 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3376,14 +3376,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group ""
-		(uuid "76202715-1730-4cbd-86cb-11cbe06ea6e2")
-		(members "0cda560f-403f-43ba-8cef-3e3a4ddba32e" "406fd670-6f50-4b3b-ba70-f21428f3f8ca"
-			"7237da47-071a-4678-80f2-dda4d2d4ce99" "8ce91a46-053f-423c-8f19-055a24d25e0c"
-			"9a8d132a-b732-4ad9-9fc8-60d15c26502b" "b945eec3-a535-4f72-b4e2-2c8491fbb808"
-			"de64626d-78a3-4d7d-9cae-b4b818bc236d"
 		)
 	)
 	(group ""

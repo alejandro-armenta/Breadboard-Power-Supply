@@ -1,3 +1,5 @@
 .history/
 *.kicad_prl
 *.lck
+Breadboard Power Supply-backups/
+fp-lib-table
