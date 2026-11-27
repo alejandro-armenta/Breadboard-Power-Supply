@@ -2150,7 +2150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 52.578 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -2230,7 +2230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 214.63 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2310,7 +2310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 215.9 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2395,7 +2395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 93.218 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -2650,7 +2650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 93.218 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -2812,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2976,7 +2976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Switch:Slide_SPDT_PTH_11.6x4.0mm"
+		(property "Footprint" "ale2:Slide_SPDT_PTH_11.6x4.0mm"
 			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3327,7 +3327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 214.63 62.23 0)
 			(hide yes)
 			(show_name no)
