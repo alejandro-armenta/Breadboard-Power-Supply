@@ -1966,7 +1966,7 @@
 	)
 	(text "this controls the current going into the led to not burn offf."
 		(exclude_from_sim no)
-		(at 254 121.92 0)
+		(at 237.49 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1993,6 +1993,16 @@
 			)
 		)
 		(uuid "975c1ca1-b75a-4d23-9d7a-6c934ec6fe43")
+	)
+	(text "estos son microfarads the capacitancia"
+		(exclude_from_sim no)
+		(at 223.52 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a06d0626-66f2-4c72-b049-ed0de4186c95")
 	)
 	(text "5 v\n"
 		(exclude_from_sim no)
@@ -2064,6 +2074,16 @@
 		)
 		(uuid "d848b0f2-47f1-4b6d-b899-d28420418ce8")
 	)
+	(text "estos son ohms de resistencia"
+		(exclude_from_sim no)
+		(at 260.35 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed324429-bdc7-45b1-85ee-5d568a6b8295")
+	)
 	(text "este lo desperdicia y el otro no lo desperdicia\n"
 		(exclude_from_sim no)
 		(at 204.47 86.36 0)
@@ -2084,11 +2104,25 @@
 		)
 		(uuid "facd6169-5a35-4e6d-8e76-4ad0bb76635a")
 	)
-	(junction
-		(at 170.18 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13fc8ebe-0b6d-4c95-85e0-ed5eb35607f2")
+	(wire
+		(pts
+			(xy 196.85 95.25) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001de25e-2b9e-460c-8807-15e20bf06a77")
+	)
+	(wire
+		(pts
+			(xy 196.85 95.25) (xy 190.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058638e4-2492-43e5-8723-e3ac6dbda31d")
 	)
 	(wire
 		(pts
@@ -2109,6 +2143,16 @@
 			(type default)
 		)
 		(uuid "22e18c29-0150-43f0-8867-0352424ca2c6")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2357b0f0-1d81-4e5b-a042-d3bc2688119e")
 	)
 	(wire
 		(pts
@@ -2162,16 +2206,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 162.56 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7420f6-e8e1-44e0-bb97-d1d9abe145b1")
-	)
-	(wire
-		(pts
 			(xy 44.45 97.79) (xy 52.07 97.79)
 		)
 		(stroke
@@ -2182,27 +2216,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 107.95) (xy 170.18 115.57)
+			(xy 144.78 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98c4a21d-c1c2-4ef5-8310-e260c5ce139a")
+		(uuid "a63dd73b-0287-442d-b20c-5d8c6ad5a8f7")
 	)
 	(wire
 		(pts
-			(xy 162.56 102.87) (xy 162.56 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a781951b-2cae-48bc-84aa-26279d579cd5")
-	)
-	(wire
-		(pts
-			(xy 205.74 121.92) (xy 210.82 121.92)
+			(xy 227.33 121.92) (xy 232.41 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2242,26 +2266,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 95.25) (xy 144.78 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9de7014-b40c-4baf-9a20-66084a0d90ec")
-	)
-	(wire
-		(pts
-			(xy 170.18 95.25) (xy 170.18 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce8b66aa-4461-4134-8732-4662ad580ac2")
-	)
-	(wire
-		(pts
 			(xy 170.18 115.57) (xy 165.1 115.57)
 		)
 		(stroke
@@ -2272,13 +2276,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 95.25) (xy 148.59 115.57)
+			(xy 123.19 95.25) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1904947-353f-4a37-8560-8ddd1f9f58d7")
+		(uuid "ee58b9b4-847c-40c6-83cc-bc0273d13af3")
 	)
 	(wire
 		(pts
@@ -2290,9 +2294,19 @@
 		)
 		(uuid "f0102875-a471-4993-afc0-e015f18c0424")
 	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 148.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd92fb87-7d5c-4c9e-bb04-4cbd4c4f589c")
+	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
-		(at 162.56 95.25 0)
+		(at 182.88 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2303,7 +2317,7 @@
 		(fields_autoplaced yes)
 		(uuid "000bf0e8-19fa-473e-b377-379b3a1e9e34")
 		(property "Reference" "U2"
-			(at 162.56 88.9 0)
+			(at 182.88 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2313,7 +2327,7 @@
 			)
 		)
 		(property "Value" "LM317_TO-220"
-			(at 162.56 91.44 0)
+			(at 182.88 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2323,7 +2337,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 162.56 88.9 0)
+			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2335,7 +2349,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-			(at 162.56 95.25 0)
+			(at 182.88 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2346,7 +2360,7 @@
 			)
 		)
 		(property "Description" "1.5A 35V Adjustable Linear Regulator, TO-220"
-			(at 162.56 95.25 0)
+			(at 182.88 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,7 +2473,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 106.68 90)
+		(at 234.95 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2470,7 +2484,7 @@
 		(fields_autoplaced yes)
 		(uuid "1762667e-5431-4261-95c6-2a4d368a143f")
 		(property "Reference" "R1"
-			(at 153.67 100.33 90)
+			(at 234.95 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2479,8 +2493,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 153.67 102.87 90)
+		(property "Value" "330"
+			(at 234.95 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2490,7 +2504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 108.458 90)
+			(at 234.95 110.998 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 106.68 0)
+			(at 234.95 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +2526,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 106.68 0)
+			(at 234.95 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,7 +2716,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 121.92 90)
+		(at 236.22 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2713,7 +2727,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cd3fe3d-8f13-42d0-a41e-ef757c1ad722")
 		(property "Reference" "R3"
-			(at 214.63 115.57 90)
+			(at 236.22 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2722,8 +2736,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 214.63 118.11 90)
+		(property "Value" "560"
+			(at 236.22 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2733,7 +2747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 123.698 90)
+			(at 236.22 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2744,7 +2758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 121.92 0)
+			(at 236.22 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2755,7 +2769,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 121.92 0)
+			(at 236.22 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2782,7 +2796,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 97.79 0)
+		(at 148.59 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2793,7 +2807,7 @@
 		(fields_autoplaced yes)
 		(uuid "7237da47-071a-4678-80f2-dda4d2d4ce99")
 		(property "Reference" "C3"
-			(at 220.98 96.5199 0)
+			(at 152.4 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2803,8 +2817,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 220.98 99.0599 0)
+		(property "Value" "0.1u"
+			(at 152.4 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2815,7 +2829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.1352 101.6 0)
+			(at 149.5552 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2826,7 +2840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 97.79 0)
+			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2837,7 +2851,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 217.17 97.79 0)
+			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +2878,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 201.93 121.92 0)
+		(at 223.52 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2875,7 +2889,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d3c819f-46fa-41df-ab4b-4b9d3893a9fa")
 		(property "Reference" "D1"
-			(at 200.3425 115.57 0)
+			(at 221.9325 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2885,7 +2899,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 200.3425 118.11 0)
+			(at 221.9325 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2895,7 +2909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 121.92 0)
+			(at 223.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2906,7 +2920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 121.92 0)
+			(at 223.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2917,7 +2931,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 201.93 121.92 0)
+			(at 223.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2928,7 +2942,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 201.93 121.92 0)
+			(at 223.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +2969,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 107.95 90)
+		(at 223.52 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2966,7 +2980,7 @@
 		(fields_autoplaced yes)
 		(uuid "82d2c39e-2d12-4bf5-b8eb-7adec8884202")
 		(property "Reference" "R2"
-			(at 166.37 101.6 90)
+			(at 223.52 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2975,8 +2989,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 166.37 104.14 90)
+		(property "Value" "330"
+			(at 223.52 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2986,7 +3000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 109.728 90)
+			(at 223.52 110.998 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2997,7 +3011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 107.95 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3008,7 +3022,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 107.95 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3035,7 +3049,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.69 97.79 0)
+		(at 123.19 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3046,7 +3060,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ce91a46-053f-423c-8f19-055a24d25e0c")
 		(property "Reference" "C1"
-			(at 190.5 96.5199 0)
+			(at 127 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3056,8 +3070,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 190.5 99.0599 0)
+		(property "Value" "10u"
+			(at 127 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3068,7 +3082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.6552 101.6 0)
+			(at 124.1552 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3079,7 +3093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 97.79 0)
+			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3090,7 +3104,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.69 97.79 0)
+			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3468,7 +3482,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 203.2 97.79 0)
+		(at 196.85 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3479,7 +3493,7 @@
 		(fields_autoplaced yes)
 		(uuid "f444f681-583e-40ac-bac8-d480dd812d33")
 		(property "Reference" "C2"
-			(at 207.01 96.5199 0)
+			(at 200.66 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3489,8 +3503,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 207.01 99.0599 0)
+		(property "Value" "1u"
+			(at 200.66 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3501,7 +3515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.1652 101.6 0)
+			(at 197.8152 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,7 +3526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 97.79 0)
+			(at 196.85 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3523,7 +3537,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 203.2 97.79 0)
+			(at 196.85 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
