@@ -516,6 +516,26 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "power_input",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "power_output",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -523,7 +543,28 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "power_input",
+        "pattern": "/12V"
+      },
+      {
+        "netclass": "power_output",
+        "pattern": "/3.3V"
+      },
+      {
+        "netclass": "power_output",
+        "pattern": "/5V"
+      },
+      {
+        "netclass": "power_input",
+        "pattern": "/PWR_input"
+      },
+      {
+        "netclass": "power_output",
+        "pattern": "/PWR_output"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -677,7 +718,7 @@
         "uuid": "b87306c7-6bd5-400b-aa49-3917e8b32fcb"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-6",
+    "used_designators": "#FLG1-3,#PWR1-12",
     "variants": []
   },
   "sheets": [
