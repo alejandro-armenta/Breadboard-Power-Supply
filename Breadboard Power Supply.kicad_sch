@@ -2149,6 +2149,16 @@
 		)
 		(uuid "00ea0bc3-585a-4622-9fd1-508fde763120")
 	)
+	(text "I flipped the screw terminal vertically so that pin 1 is GND."
+		(exclude_from_sim no)
+		(at 224.536 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "253d56dc-5720-47c6-a534-6f69ccc44ce5")
+	)
 	(text "2.12V"
 		(exclude_from_sim no)
 		(at 75.946 128.016 0)
@@ -2159,9 +2169,9 @@
 		)
 		(uuid "33f19e16-324d-429c-b0a6-0e172a618c3a")
 	)
-	(text "Power Output"
+	(text "Output and switches"
 		(exclude_from_sim no)
-		(at 197.104 41.91 0)
+		(at 201.676 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2169,9 +2179,9 @@
 		)
 		(uuid "344957b3-f959-4f3b-805e-e999e25de210")
 	)
-	(text "3.3V supply"
+	(text "3.3V"
 		(exclude_from_sim no)
-		(at 42.418 101.092 0)
+		(at 40.132 101.092 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2230,9 +2240,9 @@
 		)
 		(uuid "8db6b3af-badf-40bc-9b37-32ffd2bdbf2d")
 	)
-	(text "Power input and 5V supply"
+	(text "Input and 5V"
 		(exclude_from_sim no)
-		(at 50.038 39.116 0)
+		(at 43.434 38.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2271,6 +2281,16 @@
 			)
 		)
 		(uuid "b3dfcfcf-ff17-4d02-b4ba-cc606fa693e0")
+	)
+	(text "I flipped the screw terminal vertically so that pin 1 is GND."
+		(exclude_from_sim no)
+		(at 224.282 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c53aaabc-ff22-469e-8199-1a284f980d3e")
 	)
 	(text "0V"
 		(exclude_from_sim no)
@@ -3884,6 +3904,16 @@
 				)
 			)
 		)
+		(property "Purpose" "Power input indicator"
+			(at 73.66 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1ba9fde4-8cf7-4f34-950a-f8a98e7d3cdc")
 		)
@@ -4713,6 +4743,16 @@
 				)
 			)
 		)
+		(property "Purpose" "Output of jumper wires"
+			(at 222.25 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68a8bef2-4de2-469b-903a-336554d475d6")
 		)
@@ -4869,6 +4909,16 @@
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 222.25 135.89 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Output of jumper wires"
+			(at 222.25 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
